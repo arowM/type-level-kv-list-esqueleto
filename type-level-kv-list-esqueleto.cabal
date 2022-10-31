@@ -5,7 +5,7 @@ cabal-version: 1.12
 -- see: https://github.com/sol/hpack
 
 name:           type-level-kv-list-esqueleto
-version:        0.1.0.0
+version:        0.1.0.1
 synopsis:       Make Esqueleto handy with type-level-kv-list
 description:    This library provides a way to use type-level-kv-list with Esqueleto.
 category:       Data
@@ -76,5 +76,5 @@ library
       base >=4.7 && <5
     , esqueleto >=3.2.0 && <4.0.0
     , text >=0.11 && <2.1
-    , type-level-kv-list >=0.2.0.0 && <0.3.0.0
+    , type-level-kv-list >=2.0.0 && <2.1.0
   default-language: Haskell2010

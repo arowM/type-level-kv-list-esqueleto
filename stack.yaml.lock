@@ -6,15 +6,15 @@
 packages:
 - completed:
     name: type-level-kv-list
-    version: 0.2.0.0
+    version: 2.0.0
     git: https://github.com/arowM/type-level-kv-list
     pantry-tree:
       size: 653
-      sha256: 16d4ca843feabd0ebab315b46de391848600912eb197348247f519d259bc4130
-    commit: cf0732fb9ebb5a61c33fad0ded44c6e4c9a72c93
+      sha256: a889d603fc10c23dbc8aa91937fe92321b0af9f16f76cc4f2dbdb2c9745b06ea
+    commit: 2bd6159a1e581bdfd6e06713e70862596290ca09
   original:
     git: https://github.com/arowM/type-level-kv-list
-    commit: cf0732fb9ebb5a61c33fad0ded44c6e4c9a72c93
+    commit: 2bd6159a1e581bdfd6e06713e70862596290ca09
 snapshots:
 - completed:
     size: 619200

@@ -41,7 +41,7 @@ packages:
 # (e.g., acme-missiles-0.3)
 extra-deps:
   - git: https://github.com/arowM/type-level-kv-list
-    commit: cf0732fb9ebb5a61c33fad0ded44c6e4c9a72c93
+    commit: 2bd6159a1e581bdfd6e06713e70862596290ca09
 
 # Override default flag values for local packages and extra-deps
 flags: {}
