@@ -1,0 +1,69 @@
+name: type-level-kv-list-esqueleto
+version: "0.1.0.0"
+category: "Data"
+synopsis: "Make Esqueleto handy with type-level-kv-list"
+description:
+  This library provides a way to use type-level-kv-list with Esqueleto.
+license: "MIT"
+author: "Sakura-chan the Goat"
+copyright: "2022 Sakura-chan the Goat"
+maintainer: "arow.okamoto+github@gmail.com"
+
+extra-source-files:
+  - README.md
+
+ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints
+default-extensions:
+  - BangPatterns
+  - BinaryLiterals
+  - ConstraintKinds
+  - DataKinds
+  - DefaultSignatures
+  - DeriveDataTypeable
+  - DeriveFoldable
+  - DeriveFunctor
+  - DeriveGeneric
+  - DeriveTraversable
+  - DoAndIfThenElse
+  - DuplicateRecordFields
+  - EmptyDataDecls
+  - ExistentialQuantification
+  - FlexibleContexts
+  - FlexibleInstances
+  - FunctionalDependencies
+  - GADTs
+  - GeneralizedNewtypeDeriving
+  - InstanceSigs
+  - KindSignatures
+  - LambdaCase
+  - MultiParamTypeClasses
+  - MultiWayIf
+  - NamedFieldPuns
+  - OverloadedStrings
+  - PartialTypeSignatures
+  - PatternGuards
+  - PolyKinds
+  - RankNTypes
+  - RecordWildCards
+  - ScopedTypeVariables
+  - StandaloneDeriving
+  - Strict
+  - StrictData
+  - TupleSections
+  - TypeFamilies
+  - TypeSynonymInstances
+  - ViewPatterns
+
+dependencies:
+  - base >= 4.7 && < 5
+  - esqueleto >= 3.2.0 && < 4.0.0
+  - type-level-kv-list >= 0.2.0.0 && < 0.3.0.0
+  - text >= 0.11 && < 2.1
+
+library:
+  source-dirs:
+    - src
+  exposed-modules:
+    - Data.KVList.Esqueleto
+
+github: arowM/type-level-kv-list-esqueleto
